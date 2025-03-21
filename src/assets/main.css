@@ -1,0 +1,57 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#app {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", "PingFang SC", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    background-color: #18181b;
+    color: #e4e4e7;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: hidden; /* 防止横向滚动条 */
+  }
+}
+
+/* AOS动画优化，修复抽搐 */
+[data-aos] {
+  will-change: opacity, transform;
+  transition-duration: 1s !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* 主要按钮 */
+.btn-primary {
+  @apply px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-500 transition duration-300 shadow-lg;
+}
+
+/* 导航栏 */
+.nav-link {
+  @apply text-lg hover:text-blue-400 transition-all duration-200 px-3 py-2 rounded-lg hover:bg-zinc-800;
+}
+
+/* 产品卡片 */
+.card {
+  @apply bg-zinc-900 rounded-xl p-6 shadow-lg hover:shadow-2xl transition-transform duration-300 hover:scale-105;
+}

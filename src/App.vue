@@ -467,7 +467,7 @@
       class="w-full py-5 text-center shadow-2xl"
       style="background: linear-gradient(180deg, #0a0a0a, #000000)"
     >
-      <p class="text-sm text-gray-500">© 2025 绢花品牌官网. 保留所有权利。</p>
+      <p class="text-sm text-gray-500">© 2025 一朵顷刻品牌官网. 保留所有权利。</p>
       <div class="mt-2">
         <a
           href="/privacy"
@@ -618,13 +618,13 @@ export default {
           id: 1,
           name: "金丝牡丹胸针",
           designer: "花间一壶酒",
-          imageUrl: "/images/rightsilk.jpg",
+          imageUrl: "/images/brooch.jpg",
         },
         {
           id: 2,
           name: "紫韵兰花发簪",
           designer: "墨香书生",
-          imageUrl: "/images/necklace.jpg",
+          imageUrl: "/images/rightsilk.jpg",
         },
         {
           id: 3,
@@ -636,31 +636,31 @@ export default {
           id: 4,
           name: "翠玉莲花项链",
           designer: "江南烟雨",
-          imageUrl: "/images/brooch.jpg",
+          imageUrl: "/images/necklace.jpg",
         },
         {
           id: 5,
           name: "红绡菊花手链",
           designer: "山水有情",
-          imageUrl: "/images/flower-ring.jpg",
+          imageUrl: "/images/bracelet.jpg",
         },
         {
           id: 6,
           name: "金丝玫瑰戒指",
           designer: "云端漫步",
-          imageUrl: "/images/bracelet.jpg",
+          imageUrl: "/images/flower-ring.jpg",
         },
         {
           id: 7,
           name: "青玉百合摆件",
           designer: "竹影清风",
-          imageUrl: "/images/pin.jpg",
+          imageUrl: "/images/decoration.jpg",
         },
         {
           id: 8,
           name: "锦绣桃花香囊",
           designer: "月下独酌",
-          imageUrl: "/images/ear-drop.jpg",
+          imageUrl: "/images/sachet.jpg",
         },
       ],
     };
